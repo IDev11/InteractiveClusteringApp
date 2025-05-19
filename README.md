@@ -2,7 +2,7 @@
 
 This project is an interactive web application developed for clustering analysis, built using Streamlit. It enables users to upload datasets, preprocess data, apply various clustering algorithms, and visualize results through an intuitive interface. The app supports K-Means, Agglomerative Clustering (AGNES), DIANA (custom implementation), and DBSCAN, with plans to include K-Medoids in future updates. It is designed for both novice and experienced users, making clustering accessible for applications like market segmentation, user behavior analysis, and scientific research.
 
-This project was developed as part of a Master’s in Bioinformatics at the Faculty of Computer Science, Department of Artificial Intelligence and Data Science, under the supervision of Mme. Belhadi Hiba.
+This project was developed as part of a Master’s in Bioinformatics at the Faculty of Computer Science, Department of Artificial Intelligence and Data Science.
 
 ## Features
 - **Data Preprocessing**:
@@ -76,26 +76,12 @@ This project was developed as part of a Master’s in Bioinformatics at the Facu
   - `visualization.py`: Functions for generating 2D/3D plots, dendrograms, and elbow curves.
   - `dbscan_helper.py`: Helper functions for tuning DBSCAN parameters.
 - `requirements.txt`: Lists project dependencies.
-- `.gitignore`: Excludes unnecessary files (e.g., `__pycache__`, virtual environments, CSVs).
-
-## Screenshots
-- **Dataset Upload**: Drag-and-drop CSV upload with preview.
-- **Preprocessing**: Select columns, handle missing values, and normalize data.
-- **Clustering Configuration**: Choose algorithms and set parameters.
-- **Visualization**: View 2D/3D clusters, dendrograms, and evaluation metrics.
-
-(You can add screenshot images to the repository and reference them here, e.g., `![Dataset Upload](screenshots/upload.png)`.)
 
 ## Future Improvements
 - Add support for additional clustering algorithms (e.g., graph-based or deep clustering).
-- Implement Silhouette Score for enhanced cluster evaluation.
 - Optimize performance for large datasets.
 - Enhance visualizations with more interactive features (e.g., zoom, export formats).
 
 ## Contributors
-- **Lamara Abdeldjalil** (212131052111)
-- **Taleb Youcef** (191938012108)
-- **Supervisor**: Mme. Belhadi Hiba
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+- **Lamara Abdeldjalil**
+- **Taleb Youcef**
