@@ -2,8 +2,6 @@
 
 This project is an interactive web application developed for clustering analysis, built using Streamlit. It enables users to upload datasets, preprocess data, apply various clustering algorithms, and visualize results through an intuitive interface. The app supports K-Means, Agglomerative Clustering (AGNES), DIANA (custom implementation), and DBSCAN, with plans to include K-Medoids in future updates. It is designed for both novice and experienced users, making clustering accessible for applications like market segmentation, user behavior analysis, and scientific research.
 
-This project was developed as part of a Master’s in Bioinformatics at the Faculty of Computer Science, Department of Artificial Intelligence and Data Science.
-
 ## Features
 - **Data Preprocessing**:
   - Upload datasets in CSV format with preview functionality.
